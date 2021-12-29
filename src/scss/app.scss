@@ -1,4 +1,7 @@
-/* By Athlon Front-End Team */
+/**
+ * Base export style sheet for global
+ * Configurations. 
+ */
 
 /* Core variables */
 @import 'base/vars';
@@ -15,13 +18,10 @@
 /* Mixins, helpers and functions */
 @import 'base/mixins';
 
-/* Vendor */
+.custom {
+    background-color: #f4f4bb;
 
-/* Components */
-
-/* Browser specific styles */
-@import 'dirty/hacks';
-
-/* Demo Page styles */
-// TODO: Import your custom Sass here
-//@import 'demo';
+    @media only screen and (max-width: calc($MD + 1px)) and (min-width: $SM) {
+        background-color: red;
+    }
+}

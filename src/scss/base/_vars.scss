@@ -1,15 +1,26 @@
 /**
- * Variables
-*/
+ * Global Variables
+ */
 
 /* Typography */
+
 /* Breakpoints */
+$XS: 0; /* 0 - 575 */
+$SM: 576px; /* 576 - 767 */
+$MD: 768px; /* 768 - 991 */
+$LG: 992px; /* 992 - 1199 */
+$XL: 1200px; /* 1200 - 1399 */
+$XXL: 1400px; /* >= 1400 */
+
+/* Variables */
+
 /* Paths */
 /* Grid setup */
 /* Colour palette */
 $black: #000;
 $white: #fff;
 $light-gray: #f1f1f1;
+$favorite-color: #d4d4d4;
 
 $body-background-color: #333;
 $foreground-color: #fff;
