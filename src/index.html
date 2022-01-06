@@ -4,6 +4,28 @@
         <meta charset="UTF-8" />
         <title>Webpack Boilerplate Starter Template</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <style>
+            #col1,
+            #col2,
+            #col3,
+            #col4 {
+                padding: 2rem;
+            }
+
+            #col1 {
+                border: 1px solid salmon;
+            }
+            #col2 {
+                border: 1px solid green;
+            }
+            #col3 {
+                border: 1px solid blue;
+            }
+            #col4 {
+                border: 1px solid black;
+            }
+        </style>
     </head>
     <body>
         <h1 class="mb-3">Containers</h1>
@@ -117,5 +139,249 @@
                 </div>
             </div>
         </div>
+
+        <hr class="my-5 py-5" />
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div id="col1" class="col-xl-6 col-md-4">
+                    <div class="row">
+                        <div class="col">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Atque, officiis!
+                            </p>
+                        </div>
+                        <div class="col">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Eligendi, ipsa!
+                        </div>
+                    </div>
+                </div>
+                <div id="col2" class="col-xl-6 col-md-4">Col 2</div>
+                <div id="col3" class="col-md-4">Col 3</div>
+            </div>
+        </div>
+
+        <hr class="my-5 py-5" />
+
+        <div class="container">
+            <div class="row gx-5 gy-md-2 gy-sm-4">
+                <div class="col-xl-4 col-md-6">
+                    <p class="text-justify">
+                        My name is Simon Ranftl and I am a Frontend Web Engineer
+                        at Netconomy (Graz, Austria). I hold a bachelor's degree
+                        in Education (BEd) for secondary schools in computer
+                        science and history. During my studies I discovered my
+                        passion for programming and as an evolving teacher with
+                        industry insights, I am enthusiastic about motivating
+                        students getting into IT and programming.
+                    </p>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <p class="text-justify">
+                        As of Web Development, I enjoy coding in JavaScript and
+                        making my own small web applications using React. I am
+                        also very interested in the Progressive Web Apps (PWAs)
+                        movement to create mobile applications using the web.
+                        For implementing backend systems, I use Spring Boot and
+                        MySQL to build Fullstack applications for fun.
+                    </p>
+                </div>
+                <div class="col-xl-4">
+                    <p class="text-justify">
+                        As of Web Development, I enjoy coding in JavaScript and
+                        making my own small web applications using React. I am
+                        also very interested in the Progressive Web Apps (PWAs)
+                        movement to create mobile applications using the web.
+                        For implementing backend systems, I use Spring Boot and
+                        MySQL to build Fullstack applications for fun.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-5 py-5" />
+
+        <div class="container">
+            <div class="row justify-content-between">
+                <div id="col1" class="col-3">col1</div>
+                <div id="col2" class="col-3">col2</div>
+                <div id="col3" class="col-3">col3</div>
+            </div>
+        </div>
+
+        <hr class="my-5 py-5" />
+
+        <div class="container">
+            <div class="row gx-5 gy-md-2 gy-sm-4">
+                <div id="col1" class="col-xl-4 col-md-6">
+                    <p class="text-justify">
+                        <div class="row">
+                            <div class="col"> 
+                                My name is Simon Ranftl and I am a Frontend Web Engineer
+                                at Netconomy (Graz, Austria). I hold a bachelor's degree
+                                in Education (BEd) for secondary schools in computer
+                                science and history. During my studies I discovered my
+                                passion for programming and as an evolving teacher with
+                                industry insights, I am enthusiastic about motivating
+                                students getting into IT and programming.
+                            </div>
+                            <div class="col">
+                                As of WebDevelopment, I enjoy coding in JavaScript and making myown small web applications using React. I am also very
+                                interested in the Progressive Web Apps (PWAs) movement
+                                to create mobile applications using the web. For
+                                implementing backend systems, I use Spring Boot and
+                                MySQL to build Fullstack applications for fun.
+                            </div>
+                        </div>
+                    </p>
+                </div>
+                <div id="col2" class="col-xl-4 col-md-6">
+                    <p class="text-justify">
+                        As of Web Development, I enjoy coding in JavaScript and
+                        making my own small web applications using React. I am
+                        also very interested in the Progressive Web Apps (PWAs)
+                        movement to create mobile applications using the web.
+                        For implementing backend systems, I use Spring Boot and
+                        MySQL to build Fullstack applications for fun.As of Web
+                        Development, I enjoy coding in JavaScript and making my
+                        own small web applications using React. 
+                    </p>
+                </div>
+                <div id="col3" class="col-xl-4">
+                    <p class="text-justify">
+                        As of Web Development, I enjoy coding in JavaScript and
+                        making my own small web applications using React. I am
+                        also very interested in the Progressive Web Apps (PWAs)
+                        movement to create mobile applications using the web.
+                        For implementing backend systems, I use Spring Boot and
+                        MySQL to build Fullstack applications for fun.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-5 py-5" />
+
+        <div class="container">
+            <div style="height: 500px; border: 1px solid black" class="row">
+                <div style="height: 200px" id="col1" class="col align-self-lg-center align-self-start">
+                    col1
+                </div>
+                <div style="height: 200px" id="col2" class="col align-self-center">
+                    col2
+                </div>
+                <div style="height: 200px" id="col3" class="col align-self-end">
+                    col3
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-5 py-5" />
+
+        <div class="container">
+            <!-- horizontal row 1 -->
+            <div class="row justify-content-end">
+              <div id="col1" class="col-4">
+                One of two columns
+              </div>
+              <div id="col2" class="col-4">
+                One of two columns
+              </div>
+            </div>
+            
+            <!-- horizontal row 2 -->
+            <div class="row justify-content-center">
+              <div id="col1" class="col-4">
+                One of two columns
+              </div>
+              <div id="col2" class="col-4">
+                One of two columns
+              </div>
+            </div>
+
+            <!-- horizontal row 3 -->
+            <div class="row justify-content-around">
+                <div id="col1" class="col-4">
+                  One of two columns
+                </div>
+                <div id="col2" class="col-4">
+                  One of two columns
+                </div>
+              </div>
+          </div>
+
+          <hr class="my-5 py-5" />
+
+          <div class="container">
+              <div class="row">
+                  <div id="col1" class="col-3">
+                      Column 1
+                  </div>
+                  <div id="col2" class="col-4">
+                    Column 2
+                  </div>
+
+                  <!-- force break in LG -->
+                  <div class="w-100 d-none d-lg-block" ></div>
+
+                  <div id="col3" class="col-4">
+                    Column 3
+                  </div>
+                  <div id="col4" class="col-3">
+                    Column 4
+                  </div>
+              </div>
+          </div>
+
+          <hr class="my-5 py-5" />
+
+          <div class="container">
+            <div class="row">
+                <div id="col1" class="col order-2">
+                    ordered second
+                </div>
+                <div id="col2" class="col order-3">
+                    ordered last
+                </div>
+                <div id="col3" class="col order-1">
+                    ordered first
+                </div>
+            </div>
+          </div>
+
+          <hr class="my-5 py-5" />
+
+          <div class="container">
+              <div class="row">
+                  <div id="col1" class="col-4">
+                      col 1
+                  </div>
+                  <!-- move column to the right -->
+                  <div id="col2" class="col-3 ms-auto">
+                      col 2
+                  </div>
+              </div>
+
+              <div class="row">
+                  <div id="col1" class="col-4 offset-2 me-auto">
+                      col 1 
+                  </div>
+                  <div id="col2" class="col-2">
+                      col 2
+                  </div>
+              </div>
+
+              <div class="row">
+                <div id="col1" class="col-4 offset-1 me-auto">
+                    col 1 
+                </div>
+                <div id="col2" class="col-4 offset-1">
+                    col 2
+                </div>
+            </div>
+          </div>
+
     </body>
 </html>
